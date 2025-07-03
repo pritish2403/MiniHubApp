@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "MiniHubApp",
+    "slug": "MiniHubApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "icon": "./assets/logo_padded.png",
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo_padded.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.pritish_2403.MiniHubApp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a8304049-4942-445a-91d5-b835480e2842"
+      }
+    }
+  }
+}
